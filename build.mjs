@@ -1,4 +1,4 @@
-import * as esbuild from '/vercel/sandbox/node_modules/esbuild/lib/main.js';
+import * as esbuild from 'esbuild';
 import path from 'node:path';
 import fs from 'node:fs/promises';
 import { existsSync } from 'node:fs';
